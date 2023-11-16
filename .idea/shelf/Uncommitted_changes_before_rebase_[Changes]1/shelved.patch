@@ -1,0 +1,103 @@
+Index: src/main/java/ee/kaido/PlaytechWintership2024/result.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/ee/kaido/PlaytechWintership2024/result.txt b/src/main/java/ee/kaido/PlaytechWintership2024/result.txt
+deleted file mode 100644
+--- a/src/main/java/ee/kaido/PlaytechWintership2024/result.txt	(revision 410c1d6470d535a7ab493b2dbc4ee3094f18ed9c)
++++ /dev/null	(revision 410c1d6470d535a7ab493b2dbc4ee3094f18ed9c)
+@@ -1,5 +0,0 @@
+-163f23ed-e9a9-4e54-a5b1-4e1fc86f12f4 2725 0.14
+-
+-4925ac98-833b-454b-9342-13ed3dfd3ccf WITHDRAW null 8093 null
+-
+-75
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"afb68566-653f-4f9b-940f-58cc3d5dc7cf\" name=\"Changes\" comment=\"Done\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Enum\" />\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"FormatOnSaveOptions\">\r\n    <option name=\"myRunOnSave\" value=\"true\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"mavenHome\" value=\"Use Maven wrapper\" />\r\n        <option name=\"useMavenConfig\" value=\"true\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"OptimizeOnSaveOptions\">\r\n    <option name=\"myRunOnSave\" value=\"true\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2Y7nfikNvmLy3KxXXNvuTR2KkuQ\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RequestMappingsPanelOrder0\": \"0\",\r\n    \"RequestMappingsPanelOrder1\": \"1\",\r\n    \"RequestMappingsPanelWidth0\": \"75\",\r\n    \"RequestMappingsPanelWidth1\": \"75\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"last_opened_file_path\": \"C:/DiatoTarkvara/playtech-winternship/Playtech-Wintership-2024\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"settings.editor.selected.configurable\": \"reference.idesettings.debugger.capture\",\r\n    \"spring.configuration.checksum\": \"fcd1af72be9632d800bce160246668d7\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CreateClassDialog.RecentsKey\">\r\n      <recent name=\"ee.kaido.PlaytechWintership2024.service\" />\r\n    </key>\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\DiatoTarkvara\\playtech-winternship\\Playtech-Wintership-2024\" />\r\n      <recent name=\"C:\\DiatoTarkvara\\playtech-winternship\\Playtech-Wintership-2024\\src\\main\\java\\ee\\kaido\\PlaytechWintership2024\" />\r\n      <recent name=\"C:\\DiatoTarkvara\\Playtech-Wintership-2024\\src\\main\\resources\" />\r\n      <recent name=\"C:\\DiatoTarkvara\\Playtech-Wintership-2024\\src\\main\\java\\ee\\kaido\\PlaytechWintership2024\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\DiatoTarkvara\\Playtech-Wintership-2024\\src\\main\\java\\ee\\kaido\\PlaytechWintership2024\" />\r\n    </key>\r\n    <key name=\"MoveClassesOrPackagesDialog.RECENTS_KEY\">\r\n      <recent name=\"ee.kaido.PlaytechWintership2024.service\" />\r\n    </key>\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"ee.kaido.PlaytechWintership2024.repository\" />\r\n      <recent name=\"ee.kaido.PlaytechWintership2024.model\" />\r\n      <recent name=\"ee.kaido.PlaytechWintership2024.service\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"PlaytechWintership2024Application\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\r\n      <module name=\"Playtech-Wintership-2024\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"ee.kaido.PlaytechWintership2024.PlaytechWintership2024Application\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"afb68566-653f-4f9b-940f-58cc3d5dc7cf\" name=\"Changes\" comment=\"\" />\r\n      <created>1699885591904</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1699885591904</updated>\r\n      <workItem from=\"1699885593069\" duration=\"49023000\" />\r\n      <workItem from=\"1700120235130\" duration=\"7259000\" />\r\n      <workItem from=\"1700128077320\" duration=\"130000\" />\r\n      <workItem from=\"1700128427027\" duration=\"25000\" />\r\n      <workItem from=\"1700128742549\" duration=\"561000\" />\r\n      <workItem from=\"1700129457390\" duration=\"3424000\" />\r\n    </task>\r\n    <task id=\"LOCAL−00001\" summary=\"Done\">\r\n      <created>1700128176077</created>\r\n      <option name=\"number\" value=\"LOCAL−00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL−00001\" />\r\n      <updated>1700128176077</updated>\r\n    </task>\r\n    <task id=\"LOCAL−00002\" summary=\"Done\">\r\n      <created>1700132122280</created>\r\n      <option name=\"number\" value=\"LOCAL−00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL−00002\" />\r\n      <updated>1700132122280</updated>\r\n    </task>\r\n    <task id=\"LOCAL−00003\" summary=\"Done\">\r\n      <created>1700132609308</created>\r\n      <option name=\"number\" value=\"LOCAL−00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL−00003\" />\r\n      <updated>1700132609308</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Done\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Done\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <breakpoint enabled=\"true\" type=\"java-exception\">\r\n          <properties class=\"java.util.NoSuchElementException\" package=\"java.util\" />\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 410c1d6470d535a7ab493b2dbc4ee3094f18ed9c)
++++ b/.idea/workspace.xml	(date 1700135039481)
+@@ -4,7 +4,9 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="afb68566-653f-4f9b-940f-58cc3d5dc7cf" name="Changes" comment="Done" />
++    <list default="true" id="afb68566-653f-4f9b-940f-58cc3d5dc7cf" name="Changes" comment="Done">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -22,6 +24,9 @@
+   <component name="FormatOnSaveOptions">
+     <option name="myRunOnSave" value="true" />
+   </component>
++  <component name="Git.Rebase.Settings">
++    <option name="NEW_BASE" value="main" />
++  </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+@@ -44,26 +49,27 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RequestMappingsPanelOrder0": "0",
+-    "RequestMappingsPanelOrder1": "1",
+-    "RequestMappingsPanelWidth0": "75",
+-    "RequestMappingsPanelWidth1": "75",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "git-widget-placeholder": "main",
+-    "ignore.virus.scanning.warn.message": "true",
+-    "last_opened_file_path": "C:/DiatoTarkvara/playtech-winternship/Playtech-Wintership-2024",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "settings.editor.selected.configurable": "reference.idesettings.debugger.capture",
+-    "spring.configuration.checksum": "fcd1af72be9632d800bce160246668d7",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
++    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
++    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
++    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
++    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/DiatoTarkvara/playtech-winternship/Playtech-Wintership-2024&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.debugger.capture&quot;,
++    &quot;spring.configuration.checksum&quot;: &quot;fcd1af72be9632d800bce160246668d7&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CreateClassDialog.RecentsKey">
+       <recent name="ee.kaido.PlaytechWintership2024.service" />
+@@ -109,6 +115,8 @@
+       <workItem from="1700128427027" duration="25000" />
+       <workItem from="1700128742549" duration="561000" />
+       <workItem from="1700129457390" duration="3424000" />
++      <workItem from="1700133204608" duration="1084000" />
++      <workItem from="1700134490894" duration="549000" />
+     </task>
+     <task id="LOCAL−00001" summary="Done">
+       <created>1700128176077</created>
