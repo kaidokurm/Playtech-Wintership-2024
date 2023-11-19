@@ -25,8 +25,8 @@ public class ActionDataService {
     }
 
     //get action data and go to play
-    public void getActionDataAndPlayGames() {
-        String nextValue = "";
+    public void getActionDataAndPlayGames() throws Exception {
+        String nextValue;
         try {
             File file = new File(path + "player_data.txt");
             Scanner input = new Scanner(file)
@@ -34,6 +34,8 @@ public class ActionDataService {
                     .useLocale(Locale.ENGLISH);
             while (input.hasNext()) {
                 nextValue = input.next().replace(",", "");
+                //skip empty line
+                if (nextValue.equals("")) continue;
                 UUID id = UUID.fromString(nextValue);
 
                 nextValue = input.next().replace(",", "");
@@ -60,8 +62,7 @@ public class ActionDataService {
             }
 
         } catch (Exception e) {
-            log.error(e.getMessage());
-            e.printStackTrace();
+            throw new Exception("Error in player_data.txt: " + e.getMessage());
         }
     }
 }

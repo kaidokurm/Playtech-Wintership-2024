@@ -26,6 +26,13 @@ public class ReportService {
         this.illegitimateDataRepository = illegitimateDataRepository;
     }
 
+    private List<Player> getPlayerList() {
+        return playerRepository.findAllByIllegitimateIsFalse();
+    }
+
+    private String getIllegitimateList() {
+        return illegitimateDataRepository.findAllByOrderByIdAsc().toString();
+    }
 
     public void WriteToFile(Long balance) throws IOException {
         //write to file
@@ -37,14 +44,6 @@ public class ReportService {
         log.info(getPlayerList().toString().replace("[", "").replace("]", "").replace(", ", "\n"));
         log.info(getIllegitimateList().replace("[", "").replace("]", "").replace(", ", "\n"));
         log.info(balance);
-    }
-
-    private List<Player> getPlayerList() {
-        return playerRepository.findAllByIllegitimateIsFalse();
-    }
-
-    private String getIllegitimateList() {
-        return illegitimateDataRepository.findAllByOrderByIdAsc().toString();
     }
 
 }

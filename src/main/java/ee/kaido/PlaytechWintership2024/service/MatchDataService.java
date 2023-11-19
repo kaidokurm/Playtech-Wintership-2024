@@ -22,10 +22,10 @@ public class MatchDataService {
         this.matchDataRepository = matchDataRepository;
     }
 
-    public void getMatchData() {
+    public void getMatchData() throws Exception {
 
         Collection<MatchData> items = new ArrayList<MatchData>();
-        String nextValue = "";
+        String nextValue;
         try {
             File file = new File(path + "match_data.txt");
             Scanner input = new Scanner(file)
@@ -52,8 +52,7 @@ public class MatchDataService {
             matchDataRepository.saveAll(items);
 
         } catch (Exception e) {
-            log.error(e.getMessage());
-            e.printStackTrace();
+            throw new Exception("Error in match_data.txt: " + e.getMessage());
         }
 
     }
